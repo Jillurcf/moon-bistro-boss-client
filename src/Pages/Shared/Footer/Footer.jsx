@@ -60,7 +60,11 @@ const Footer = () => {
             </a>
           </div>
         </nav>
+       
       </footer>
+      <aside>
+          <p className="text-center">Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </aside>
     </div>
   );
 };
