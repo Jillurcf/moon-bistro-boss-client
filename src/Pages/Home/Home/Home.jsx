@@ -1,6 +1,6 @@
 import Banner from "../Banner/Banner";
 import Categories from "../Category/Categories";
-import Features from "../Features";
+import Features from "../Features/Features";
 import PopularMenu from "../PopularMenu/PopularMenu";
 
 
