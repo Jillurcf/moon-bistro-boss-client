@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import Categories from "../Category/Categories";
 
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
           
             <Banner></Banner>
+            <Categories></Categories>
         </div>
     );
 };
