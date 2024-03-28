@@ -11,13 +11,18 @@ import slide1 from '../../../assets/home/slide1.jpg';
 import slide2 from '../../../assets/home/slide2.jpg';
 import slide3 from '../../../assets/home/slide3.jpg';
 import slide4 from '../../../assets/home/slide4.jpg';
-// import Sectiontitle from '../../../Component/SectionTitle/Sectiontitle';
+import Sectionstitle from '../../../components/SectionTitles/Sectionstitle';
+
 
 const Categories = () => {
 
   return (
-<div>
-  {/* <Sectiontitle heading="Services we provide" subHeading="Quality services is our commitment"></Sectiontitle> */}
+<section>
+  <Sectionstitle subheading={"From 11.am to 10pm"}
+  heading={"Order Online"}
+  >
+
+  </Sectionstitle>
 <Swiper
       slidesPerView={3}
       spaceBetween={30}
@@ -51,7 +56,7 @@ const Categories = () => {
         </SwiperSlide>
       
     </Swiper>
-</div>
+</section>
     
   
       )
