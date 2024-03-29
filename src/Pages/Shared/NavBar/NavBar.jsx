@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   const NavBar = (
     <>
       <li>
-        <a>Item 1</a>
+       <Link to="/menu">Menu</Link>
       </li>
     </>
   );

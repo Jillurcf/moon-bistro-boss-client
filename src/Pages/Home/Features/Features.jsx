@@ -3,7 +3,7 @@ import featureImg from "../../../assets/home/featured.jpg";
 import './features.css'
 const Features = () => {
     return (
-        <div className="featured-item">
+        <div className="featured-item text-white">
             <Sectionstitle heading="Featuerd Item" subheading='check it out'></Sectionstitle>
             <div  className="md: flex justify-center items-center py-8 px-16">
                 <div><img src={featureImg} alt="" /></div>
