@@ -3,6 +3,8 @@ import Cover from "../../Shared/Cover/Cover";
 import menuImg from "../../../assets/menu/banner3.jpg"
 import dessertImg from "../../../assets/menu/dessert-bg.jpeg"
 import soupImg from "../../../assets/menu/soup-bg.jpg"
+import saladImg from "../../../assets/menu/salad-bg.jpg"
+import pizzaImg from "../../../assets/menu/pizza-bg.jpg"
 import useMenu from "../../../Hooks/useMenu";
 import Sectionstitle from "../../../components/SectionTitles/Sectionstitle";
 import MenuCategory from "../MenuCategory/MenuCategory";
@@ -30,6 +32,10 @@ const Menu = () => {
             <MenuCategory items={dessert} title="desserts" img={dessertImg}></MenuCategory>
             {/* Soup menu item*/}
             <MenuCategory items={soup} title="Soup" img={soupImg}></MenuCategory>
+            {/* Salad menu item*/}
+            <MenuCategory items={salad} title="Salad" img={saladImg}></MenuCategory>
+            {/* Salad menu item*/}
+            <MenuCategory items={pizza} title="Pizza" img={pizzaImg}></MenuCategory>
         </div>
     );
 };
